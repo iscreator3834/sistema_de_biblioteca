@@ -1,8 +1,10 @@
-# sistema_de_biblioteca
+# Sistema de biblioteca
 
 ações da biblioteca
-- empresta
-- prazo de devolver o livro
-- nome de livro
-- nome do autor
-- quantidade de livros
+- Empresta
+- Prazo de devolver o livro
+- Nome de livro
+- Nome do autor
+- Quantidade de livros
+
+Na biblioteca os usuário podem ler os livro pegar emprestado 
