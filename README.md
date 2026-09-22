@@ -12,3 +12,5 @@ ações da biblioteca
 - Quantidade de livros
 
 Na biblioteca os usuário podem ler os livro pegar emprestado 
+
+Observação: também será adicionador se usuário concluiu ou desistiu da leitura, e quantidade de livro emprestados e a penalidade se o empréstimo da entrega livro estive atrasado.
