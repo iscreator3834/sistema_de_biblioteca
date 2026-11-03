@@ -19,3 +19,10 @@ CREATE TABLE Cliente (
     nome VARCHAR(125)
     matricula char(14)
 );
+
+
+CREATE TABLE LivroPedido (
+    idPedido INT UNSIGNED NOT NULL,
+    idLivro INT UNSIGNED NOT NULL,
+    quantidade INT UNSIGNED NOT NULL,
+);
