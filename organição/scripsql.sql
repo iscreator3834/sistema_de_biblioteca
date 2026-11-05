@@ -18,11 +18,23 @@ CREATE TABLE Cliente (
     -- Atributo Simples / Atômico
     nome VARCHAR(125)
     matricula char(14)
+    senha VARCHAR(125)
 );
 
 
-CREATE TABLE LivroPedido (
+CREATE TABLE Livro (
     idPedido INT UNSIGNED NOT NULL,
-    idLivro INT UNSIGNED NOT NULL,
+    titulo VARCHAR(100) NOT NULL,
+    autor VARCHAR(150) NOT NULL
     quantidade INT UNSIGNED NOT NULL,
+);
+
+CREATE TABLE emprestimos (
+    Cliente_id INT NOT NULL,
+    livro_id INT NOT NULL,
+    data_emprestimo DATE NOT NULL,
+    data_devolucao DATE NOT NULL,
+    status ENUM('Ativo', 'Devolvido', 'Atrasado') DEFAULT 'Ativo',
+    FOREIGN KEY (usuario_id) REFERENCES Cliente(id),
+    FOREIGN KEY (livro_id) REFERENCES livros(id)
 );
