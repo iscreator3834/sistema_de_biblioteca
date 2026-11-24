@@ -4,7 +4,6 @@
 -- 2. O que é DDL?
 -- R: Linguagem de definição de dados e contém comandos interador, por exemplo, CREATE, ALTER e DROP
 
-
 -- Removendo o banco de dados caso ele exista
 DROP DATABASE IF EXISTS Biblioteca;
 
