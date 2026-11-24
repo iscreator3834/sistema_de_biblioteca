@@ -1,3 +1,7 @@
+-- 1. O que é SQL?
+-- R: 
+
+
 -- Removendo o banco de dados caso ele exista
 DROP DATABASE IF EXISTS Biblioteca;
 
@@ -8,7 +12,7 @@ USE Biblioteca;
 -- =======================================================================
 --O leitor só tem um matricula
 --requição de livro
---só pode empreta 7 livro
+--só pode empresta 7 livro
 
 -- =======================================================================
 CREATE TABLE Cliente (
