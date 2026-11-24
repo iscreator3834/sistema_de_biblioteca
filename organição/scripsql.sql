@@ -1,5 +1,8 @@
 -- 1. O que é SQL?
--- R: 
+-- R: Linguagem de consulta estruturada que permitir criar, gerenciar, atualizar e modificar
+--
+-- 2. O que é DDL?
+-- R: Linguagem de definição de dados e contém comandos interador, por exemplo, CREATE, ALTER e DROP
 
 
 -- Removendo o banco de dados caso ele exista
@@ -13,7 +16,6 @@ USE Biblioteca;
 --O leitor só tem um matricula
 --requição de livro
 --só pode empresta 7 livro
-
 -- =======================================================================
 CREATE TABLE Cliente (
     -- idCliente chave primaria Artificial
